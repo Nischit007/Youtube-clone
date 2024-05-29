@@ -1,0 +1,222 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #ffffff;
+    /* border-bottom: 1px solid #d3d3d3; */
+    padding: 10px 20px;
+    display: flex;
+    /* align-items: center; */
+ 
+    height: 45px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+.yt-logo{
+    height: 60px;
+    margin-left: 25px;
+}
+
+nav img {
+    font-size: 24px;
+    margin: 0;
+    top: -20px;
+}
+
+nav input[type="text"] {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #d3d3d3;
+    border-radius: 20px;
+    position: absolute;
+    left:466px;
+    top: -2px;
+    width: 490px;
+    height: 26px;
+}
+
+nav .icons {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+nav .icons.search {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left:937px;
+    top: 7px;
+    
+    /* position:absolute ; */
+}
+
+nav .icons.mic {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left:990px;
+    top: 5px;
+}
+
+nav .icons.addVideo {
+    width: 24px;
+    height: 16px;
+    position: absolute;
+    left: 1230px;
+    top: 8px;
+}
+
+nav .icons.notification {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 1270px;
+    top: -2px;
+}
+
+nav .icons.pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: absolute;
+    left: 1320px;
+    top: -2px;
+}
+.menu-three-dot{
+    height: 22px;
+    position: absolute;
+    top:10px;
+    left: 10px;
+}
+
+.parent {
+    height: 1000px;
+    width: 100%;
+  
+    display: flex;
+}
+.first {
+    height: 100%;
+    width: 15%;
+
+}
+.second {
+    height: 100%;
+    width: 85%;
+    margin-top: -26px;
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 8px; /* Add padding to the container to create gap from the container's edges */
+    box-sizing: border-box; /* Include padding in the container's dimensions */
+    gap: 0px; /* Create gap between flex items */
+}
+.video-div {
+    margin: 20px 0px;
+    margin-left: 14px;
+    height: 315px;
+    width: 368px;
+    background-color: rgb(146, 107, 57);
+  
+
+}
+
+
+.first-button{
+
+    /* background-color: none; */
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 45px;
+    width: 100%;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    position: relative;
+}
+.first-icon-logo{
+    height: 20px;
+    position: absolute;
+    left: 30px;
+}
+.first-button:hover {
+    background-color: rgb(237, 226, 226);
+
+    border-color: white;
+}
+hr {
+    border: none;
+    height: 1px; /* Adjust the height as needed */
+    background-color: rgba(0, 0, 0, 0.1); /* Use a light color with low opacity */
+    margin: 20px 0; /* Optional: Add margin for spacing */
+}
+.hr{
+    margin-top: 10px;
+}
+.first-div-text{
+
+    margin: 30px;
+}
+
+.video-thumbnail{
+    height: 70%;
+    background-color: #852e2e;
+    
+}
+.video-info{
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+.img{
+    height: 100%;
+    width: 100%;
+   
+    
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 10px;
+   
+}
+
+.title{
+    position: absolute;
+    top: 14px;
+    left: 57px;
+    
+}
+.channel-name{
+    position: absolute;
+    top: 23px;
+    left: 57px;
+    color: rgba(3, 1, 1, 0.9); /* Gray color with 70% opacity */
+    opacity: 0.7; /* 70% opacity */
+    
+}
+.views{
+    position: absolute;
+    top: 46px;
+    left: 57px;
+    color: rgba(2, 1, 1, 0.9); /* Gray color with 70% opacity */
+    opacity: 0.7; /* 70% opacity */
+}
